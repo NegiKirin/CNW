@@ -9,7 +9,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7026b829-4393-4452-b018-f56393b5aa43" name="Changes" comment="" />
+    <list default="true" id="7026b829-4393-4452-b018-f56393b5aa43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CNW.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BT_CNW_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/Login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/SignUp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/booking.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-management.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/model/bean/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/model/bean/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/model/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/model/bean/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/model/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/model/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/util/mapper/SessionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/util/mapper/SessionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/util/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/util/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/bean/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/bean/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/bean/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/bean/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/bean/Session.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/bean/Session.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/dao/AbstractDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/dao/AbstractDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/dao/UserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/util/mapper/RowMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/util/mapper/RowMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/util/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/util/mapper/UserMapper.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +48,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -45,29 +74,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "F:/workspace/Java/CNW/src/main/webapp/WEB-INF",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\Java\CNW\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\Java\CNW\src\main\webapp" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserDAO">
+  <component name="RunManager" selected="Smart Tomcat.Tomcat: BT_CNW">
     <configuration name="CheckLoginDAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="model.dao.CheckLoginDAO" />
       <module name="BT_CNW" />
@@ -92,6 +130,58 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CNW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CNW" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Login.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.83" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Login.jsp" />
+      <deployment>
+        <artifact name="BT_CNW:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BT_CNW_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="96534576-0c90-47cb-aac4-861f84b612af" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BT_CNW:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.74" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.83" ALTERNATIVE_JRE_ENABLED="false">
@@ -191,6 +281,9 @@
       <option name="catalinaBase" value="" />
       <option name="contextPath" value="/BT_CNW" />
       <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="extraClassPath" value="" />
       <option name="tomcatInfo">
         <TomcatInfo>
@@ -200,8 +293,12 @@
         </TomcatInfo>
       </option>
       <option name="vmOptions" value="" />
+      <module name="BT_CNW" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BT_CNW:war exploded" />
+        </option>
       </method>
     </configuration>
     <list>
@@ -209,11 +306,13 @@
       <item itemvalue="Application.UserDAO" />
       <item itemvalue="Smart Tomcat.Tomcat: BT_CNW" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.74" />
+      <item itemvalue="Tomcat Server.Login.jsp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UserDAO" />
         <item itemvalue="Smart Tomcat.Tomcat: BT_CNW" />
+        <item itemvalue="Tomcat Server.Login.jsp" />
+        <item itemvalue="Application.UserDAO" />
         <item itemvalue="Application.CheckLoginDAO" />
       </list>
     </recent_temporary>
@@ -243,6 +342,7 @@
       <workItem from="1702722665592" duration="17000" />
       <workItem from="1702722689899" duration="16000" />
       <workItem from="1702722846767" duration="19000" />
+      <workItem from="1702818391577" duration="2646000" />
     </task>
     <servers />
   </component>

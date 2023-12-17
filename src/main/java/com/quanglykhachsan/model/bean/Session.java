@@ -8,6 +8,8 @@ public class Session {
     private int roomId;
     private Timestamp startTime;
     private Timestamp endTime;
+    private int countAdult;
+    private int countChildren;
     private User user = new User();
     private Room room = new Room();
 
@@ -65,5 +67,21 @@ public class Session {
 
     public void setRoom(Room room) {
         this.room = room;
+    }
+
+    public int getCountAdult() {
+        return countAdult;
+    }
+
+    public void setCountAdult(int countAdult) {
+        this.countAdult = countAdult;
+    }
+
+    public int getCountChildren() {
+        return countChildren;
+    }
+
+    public void setCountChildren(int countChildren) {
+        this.countChildren = countChildren;
     }
 }

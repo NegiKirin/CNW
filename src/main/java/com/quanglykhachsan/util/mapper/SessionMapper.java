@@ -15,6 +15,8 @@ public class SessionMapper implements RowMapper<Session> {
             session.setRoomId(rs.getInt("room_id"));
             session.setStartTime(rs.getTimestamp("start_time"));
             session.setEndTime(rs.getTimestamp("end_time"));
+            session.setCountAdult(rs.getInt("count_adult"));
+            session.setCountChildren(rs.getInt("count_children"));
             return session;
         } catch (SQLException e) {
             e.printStackTrace();
