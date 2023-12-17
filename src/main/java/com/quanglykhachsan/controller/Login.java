@@ -37,6 +37,8 @@ public class Login extends HttpServlet {
             request.setAttribute("errorLogin", error);
             url = "";
             System.out.println(error);
+            RequestDispatcher rd = request.getRequestDispatcher("/Login.jsp");
+            rd.forward(request, response);
         }
 
         RequestDispatcher rd = request.getRequestDispatcher("/Login.jsp");
