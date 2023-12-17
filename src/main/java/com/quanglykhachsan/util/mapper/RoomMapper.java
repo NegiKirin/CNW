@@ -13,6 +13,8 @@ public class RoomMapper implements RowMapper<Room> {
             room.setId(rs.getInt("id"));
             room.setPrice(rs.getLong("price"));
             room.setStatus(rs.getInt("status"));
+            room.setAddress(rs.getString("address"));
+            room.setHotelname(rs.getString("hotelname"));
             return room;
         } catch (SQLException e) {
             e.printStackTrace();

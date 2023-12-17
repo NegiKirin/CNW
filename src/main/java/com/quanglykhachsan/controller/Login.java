@@ -32,6 +32,8 @@ public class Login extends HttpServlet {
         if (user != null) {
             request.getSession().setAttribute("user", user);
             System.out.println("Thanh cong");
+            RequestDispatcher rd = request.getRequestDispatcher("/home.jsp");
+            rd.forward(request, response);
         }else {
             error+="Sai Email hoặc sai mật khẩu";
             request.setAttribute("errorLogin", error);
@@ -41,7 +43,6 @@ public class Login extends HttpServlet {
             rd.forward(request, response);
         }
 
-        RequestDispatcher rd = request.getRequestDispatcher("/Login.jsp");
-        rd.forward(request, response);
+        
     }
 }

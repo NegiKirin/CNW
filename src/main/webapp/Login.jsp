@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -45,6 +46,7 @@
     <form action="login" method="post">
         <input type="text" class="form-input" name="email" placeholder="Email" required />
         <input type="password" class="form-input" name="password" placeholder="Password" required />
+        <p>${errorLogin}</p>
         <button type="submit" class="login-button">Đăng nhập</button>
     </form>
 </div>
