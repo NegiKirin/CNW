@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,93 +52,94 @@ body {
 
 	</div>
 	<ul class="list-bar">
-		<li class="list">
-			<div class="left">
-				<img src="Pizza_Hai_San_Cocktail.png"
-					style="height: 200px; width: 200px">
-			</div>
-			<div class="middle">
-				<h2
-					style="color: #00BBC9; font-family: Inter; font-size: 1.25rem; font-style: normal; font-weight: 700; line-height: normal;">Hotel
-					Hoi An</h2>
-				<p>27 Nguyen Chanh, Lien Chieu, Da Nang</p>
-			</div>
-			<div class="right">
-				<p
-					style="margin-bottom: 6px; color: #000; font-family: Inter; font-size: 1.3rem; font-style: normal; font-weight: 700; line-height: normal;">
-					300000 &nbsp<span>d</span>
-				</p>
-				<a href="#">
-					<button class="datngay">Dat ngay ></button>
-				</a>
-			</div>
-		</li>
-		<li class="list">
-			<div class="left">
-				<img src="Pizza_Hai_San_Cocktail.png"
-					style="height: 200px; width: 200px">
-			</div>
-			<div class="middle">
+		<c:forEach items="${listRooms}" var="room">
+			<li class="list">
+				<div class="left">
+					<img src="Pizza_Hai_San_Cocktail.png"
+						 style="height: 200px; width: 200px">
+				</div>
+				<div class="middle">
+					<h2
+							style="color: #00BBC9; font-family: Inter; font-size: 1.25rem; font-style: normal; font-weight: 700; line-height: normal;">${room.hotelname}</h2>
+					<p>${room.address}</p>
+				</div>
+				<div class="right">
+					<p
+							style="margin-bottom: 6px; color: #000; font-family: Inter; font-size: 1.3rem; font-style: normal; font-weight: 700; line-height: normal;"> ${room.price}<span>d</span>
+					</p>
+					<a href="#">
+						<button class="datngay">Dat ngay ></button>
+					</a>
+				</div>
+			</li>
+		</c:forEach>
 
-				<h2
-					style="color: #00BBC9; font-family: Inter; font-size: 1.25rem; font-style: normal; font-weight: 700; line-height: normal;">Hotel
-					Hoi An</h2>
-				<img src="location.svg" style="width: 20px; height: 20px;">
-				<p style="display: inline-block;">27 Nguyen Chanh, Lien Chieu,
-					Da Nang</p>
-			</div>
-			<div class="right">
-				<p
-					style="margin-bottom: 6px; color: #000; font-family: Inter; font-size: 1.3rem; font-style: normal; font-weight: 700; line-height: normal;">
-					300000 &nbsp<span>d</span>
-				</p>
-				<a href="#">
-					<button class="datngay">Dat ngay ></button>
-				</a>
-			</div>
-		</li>
-		<li class="list">
-			<div class="left">
-				<img src="Pizza_Hai_San_Cocktail.png"
-					style="height: 200px; width: 200px">
-			</div>
-			<div class="middle">
-				<h2
-					style="color: #00BBC9; font-family: Inter; font-size: 1.25rem; font-style: normal; font-weight: 700; line-height: normal;">Hotel
-					Hoi An</h2>
-				<p>27 Nguyen Chanh, Lien Chieu, Da Nang</p>
-			</div>
-			<div class="right">
-				<p
-					style="margin-bottom: 6px; color: #000; font-family: Inter; font-size: 1.3rem; font-style: normal; font-weight: 700; line-height: normal;">
-					300000 &nbsp<span>d</span>
-				</p>
-				<a href="#">
-					<button class="datngay">Dat ngay ></button>
-				</a>
-			</div>
-		</li>
-		<li class="list">
-			<div class="left">
-				<img src="Pizza_Hai_San_Cocktail.png"
-					style="height: 200px; width: 200px">
-			</div>
-			<div class="middle">
-				<h2
-					style="color: #00BBC9; font-family: Inter; font-size: 1.25rem; font-style: normal; font-weight: 700; line-height: normal;">Hotel
-					Hoi An</h2>
-				<p>27 Nguyen Chanh, Lien Chieu, Da Nang</p>
-			</div>
-			<div class="right">
-				<p
-					style="margin-bottom: 6px; color: #000; font-family: Inter; font-size: 1.3rem; font-style: normal; font-weight: 700; line-height: normal;">
-					300000 &nbsp<span>d</span>
-				</p>
-				<a href="#">
-					<button class="datngay">Dat ngay ></button>
-				</a>
-			</div>
-		</li>
+<%--		<li class="list">--%>
+<%--			<div class="left">--%>
+<%--				<img src="Pizza_Hai_San_Cocktail.png"--%>
+<%--					style="height: 200px; width: 200px">--%>
+<%--			</div>--%>
+<%--			<div class="middle">--%>
+
+<%--				<h2--%>
+<%--					style="color: #00BBC9; font-family: Inter; font-size: 1.25rem; font-style: normal; font-weight: 700; line-height: normal;">Hotel--%>
+<%--					Hoi An</h2>--%>
+<%--				<img src="location.svg" style="width: 20px; height: 20px;">--%>
+<%--				<p style="display: inline-block;">27 Nguyen Chanh, Lien Chieu,--%>
+<%--					Da Nang</p>--%>
+<%--			</div>--%>
+<%--			<div class="right">--%>
+<%--				<p--%>
+<%--					style="margin-bottom: 6px; color: #000; font-family: Inter; font-size: 1.3rem; font-style: normal; font-weight: 700; line-height: normal;">--%>
+<%--					300000 &nbsp<span>d</span>--%>
+<%--				</p>--%>
+<%--				<a href="#">--%>
+<%--					<button class="datngay">Dat ngay ></button>--%>
+<%--				</a>--%>
+<%--			</div>--%>
+<%--		</li>--%>
+<%--		<li class="list">--%>
+<%--			<div class="left">--%>
+<%--				<img src="Pizza_Hai_San_Cocktail.png"--%>
+<%--					style="height: 200px; width: 200px">--%>
+<%--			</div>--%>
+<%--			<div class="middle">--%>
+<%--				<h2--%>
+<%--					style="color: #00BBC9; font-family: Inter; font-size: 1.25rem; font-style: normal; font-weight: 700; line-height: normal;">Hotel--%>
+<%--					Hoi An</h2>--%>
+<%--				<p>27 Nguyen Chanh, Lien Chieu, Da Nang</p>--%>
+<%--			</div>--%>
+<%--			<div class="right">--%>
+<%--				<p--%>
+<%--					style="margin-bottom: 6px; color: #000; font-family: Inter; font-size: 1.3rem; font-style: normal; font-weight: 700; line-height: normal;">--%>
+<%--					300000 &nbsp<span>d</span>--%>
+<%--				</p>--%>
+<%--				<a href="#">--%>
+<%--					<button class="datngay">Dat ngay ></button>--%>
+<%--				</a>--%>
+<%--			</div>--%>
+<%--		</li>--%>
+<%--		<li class="list">--%>
+<%--			<div class="left">--%>
+<%--				<img src="Pizza_Hai_San_Cocktail.png"--%>
+<%--					style="height: 200px; width: 200px">--%>
+<%--			</div>--%>
+<%--			<div class="middle">--%>
+<%--				<h2--%>
+<%--					style="color: #00BBC9; font-family: Inter; font-size: 1.25rem; font-style: normal; font-weight: 700; line-height: normal;">Hotel--%>
+<%--					Hoi An</h2>--%>
+<%--				<p>27 Nguyen Chanh, Lien Chieu, Da Nang</p>--%>
+<%--			</div>--%>
+<%--			<div class="right">--%>
+<%--				<p--%>
+<%--					style="margin-bottom: 6px; color: #000; font-family: Inter; font-size: 1.3rem; font-style: normal; font-weight: 700; line-height: normal;">--%>
+<%--					300000 &nbsp<span>d</span>--%>
+<%--				</p>--%>
+<%--				<a href="#">--%>
+<%--					<button class="datngay">Dat ngay ></button>--%>
+<%--				</a>--%>
+<%--			</div>--%>
+<%--		</li>--%>
 	</ul>
 </body>
 </html>

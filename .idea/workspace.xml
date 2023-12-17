@@ -11,13 +11,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7026b829-4393-4452-b018-f56393b5aa43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/controller/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/controller/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/model/bean/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/model/bean/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/util/mapper/RoomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/util/mapper/RoomMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/model/dao/RoomDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/quanglykhachsan/model/dao/RoomDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/BT_CNW-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/BT_CNW-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/bean/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/quanglykhachsan/model/bean/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/home.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +323,7 @@
       <workItem from="1702722846767" duration="19000" />
       <workItem from="1702818391577" duration="2646000" />
       <workItem from="1702824164400" duration="50000" />
-      <workItem from="1702824278308" duration="1255000" />
+      <workItem from="1702824278308" duration="2485000" />
     </task>
     <servers />
   </component>

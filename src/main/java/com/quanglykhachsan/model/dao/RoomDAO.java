@@ -12,4 +12,10 @@ public class RoomDAO extends AbstractDAO<Room>{
         List<Room> rooms = query(sql.toString(), new RoomMapper(), roomId);
         return rooms.isEmpty() ? null: rooms.get(0);
     }
+
+    public List<Room> getAll() {
+        StringBuilder sql = new StringBuilder("SELECT * FROM room");
+        List<Room> rooms = query(sql.toString(), new RoomMapper());
+        return rooms;
+    }
 }

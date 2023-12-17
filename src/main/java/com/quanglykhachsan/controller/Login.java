@@ -32,8 +32,7 @@ public class Login extends HttpServlet {
         if (user != null) {
             request.getSession().setAttribute("user", user);
             System.out.println("Thanh cong");
-            RequestDispatcher rd = request.getRequestDispatcher("/home.jsp");
-            rd.forward(request, response);
+            response.sendRedirect("/CNW/home");
         }else {
             error+="Sai Email hoặc sai mật khẩu";
             request.setAttribute("errorLogin", error);
